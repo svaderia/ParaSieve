@@ -27,7 +27,9 @@
 - All the lists are implemented as bit vectors to minimize memory requirements and decrease the communication overheads.
 - Macros have been used wherever applicable to decrease the stack frame allocation/deallocation for basic bit vector operations.
 - Skip counting is used to ignore every multiple of 2, i.e. only odd numbers are checked for Primality.
-- While marking primes across the entire length of the array sequentially, the algorithm suffers a lot of cache misses. We can break the entire range into small segments which occupy memory equivalent to the page size. On each segment we can mark all the multiples before moving to the next, thus minimizing the cache misses. (Integration of this is not done yet.)
+
+## Further Scope of Improvement
+- While marking primes across the entire length of the array sequentially, the algorithm suffers a lot of cache misses. We can break the entire range into small segments which occupy memory equivalent to the page size. On each segment we can mark all the multiples before moving to the next, thus minimizing the cache misses. 
 
 ## Results
 
