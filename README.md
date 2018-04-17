@@ -67,3 +67,9 @@
 ```
 
 ## [Original Development Repository](https://github.com/atalukdar/ParaCompCourseProjects)
+
+# Authors
+
+- [Abhishek V Joshi](https://github.com/jbnerd)
+- [Shyamal Vaderia](https://github.com/svaderia)
+- [Arka Talukdar](https://github.com/atalukdar)
